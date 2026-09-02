@@ -129,7 +129,7 @@ export default function LoginPage() {
             <div className="grid grid-cols-3 gap-2">
               <button
                 type="button"
-                onClick={() => handleQuickLogin('admin@orderflow.com', 'Admin123!')}
+                onClick={() => handleQuickLogin('admin@orderflow.com', 'Admin@123456')}
                 className="px-2.5 py-2 text-xs font-semibold rounded-lg border border-border bg-muted/40 hover:bg-primary/10 hover:text-primary transition-colors truncate"
               >
                 Admin
