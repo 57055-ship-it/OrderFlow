@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "OrderFlow — Premium Order & Indent Management System",
   "main": "server/server.js",
+  "workspaces": [
+    "client",
+    "server"
+  ],
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "npm --prefix server run dev",
